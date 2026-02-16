@@ -1,0 +1,16 @@
+[project]
+name = "bigspring-search-backend"
+version = "0.1.0"
+description = "BigSpring Knowledge-to-Action Search Agent backend"
+requires-python = ">=3.12"
+dependencies = [
+    "aiosqlite==0.20.0",
+    "chromadb==0.5.0",
+    "fastapi==0.115.0",
+    "openai>=1.60.0",
+    "pandas==2.2.0",
+    "python-dotenv==1.0.1",
+    "sqlalchemy==2.0.35",
+    "sse-starlette==2.1.0",
+    "uvicorn[standard]==0.30.0",
+]
