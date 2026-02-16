@@ -1,0 +1,11 @@
+.git
+.gitignore
+.claude
+*.md
+backend/.env
+backend/.venv
+backend/__pycache__
+backend/chroma_db
+backend/*.db
+frontend/node_modules
+frontend/.next
