@@ -2,8 +2,11 @@
 
 A secure, multi-tenant Generative Search Engine that allows Sales Representatives to retrieve specific data from their assigned training materials and personal performance history. Built as a RAG-powered search system with strict data isolation, intent-based routing, and intelligent guardrails.
 
+**Live Demo:** [http://35.173.215.142/](http://35.173.215.142/)
+
 ## Table of Contents
 
+- [Live Demo](#live-demo)
 - [Architecture](#architecture)
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
@@ -13,6 +16,12 @@ A secure, multi-tenant Generative Search Engine that allows Sales Representative
 - [Guardrails & Fallback Logic](#guardrails--fallback-logic)
 - [Test Cases](#test-cases)
 - [AI Tools Used](#ai-tools-used)
+
+## Live Demo
+
+The application is deployed and accessible at: **[http://35.173.215.142/](http://35.173.215.142/)**
+
+No setup required — select a company, pick a user, and start searching.
 
 ## Architecture
 
