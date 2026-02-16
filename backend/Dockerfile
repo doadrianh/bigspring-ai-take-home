@@ -2,6 +2,11 @@ FROM python:3.12-slim
 
 WORKDIR /app/backend
 
+# Install build tools needed by chroma-hnswlib
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential g++ && \
+    rm -rf /var/lib/apt/lists/*
+
 # Install uv
 COPY --from=ghcr.io/astral-sh/uv:latest /uv /usr/local/bin/uv
 
